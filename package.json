@@ -1,0 +1,8 @@
+{
+  "name": "scrubber",
+  "version": "0.0.1",
+  "description": "Simple, attractive html+js scrubber control",
+  "main": "scrubber.js",
+  "author": "desmosinc",
+  "license": "MIT"
+}

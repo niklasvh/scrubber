@@ -187,3 +187,7 @@ ScrubberView.prototype.attachListeners = function ()  {
   document.addEventListener('mouseup', stop);
   document.addEventListener('touchend', stop);
 };
+
+if (typeof(module)) === 'object' && typeof(module.exports) === 'object') {
+  module.exports = ScrubberView;
+}
